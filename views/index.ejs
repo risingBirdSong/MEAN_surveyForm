@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <form action="/formsubmit" method="post">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+      <select name="location">
+        <option name="location" value="#">choose one</option>
+        <option name="location" value="seattle">seattle</option>
+        <option name="location" value="moon base">moon base</option>
+        <option name="location" value="ocean base">ocean base</option>
+      </select>
+
+    </div>
+    <div>
+      <label for="msg">fave language</label>
+      <select name="language">
+        <option name="language" value="#">choose one</option>
+        <option name="language" value="csharp">Csharp</option>
+        <option name="language" value="typescript">typescript</option>
+      </select>
+    </div>
+    <input type="submit"> submit me
+  </form>
+
+</body>
+
+</html>
